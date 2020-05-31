@@ -8,6 +8,7 @@ const Nav = () => (
        <li><Link to={ROUTES.HOME}>Intro</Link></li> 
        <li><Link to={ROUTES.USE_STATE_1}>useState Example 1</Link></li> 
        <li><Link to={ROUTES.USE_STATE_2}>useState Example 2</Link></li> 
+       <li><Link to={ROUTES.USE_EFFECT_1}>useEffect Example</Link></li> 
     </NavContainer>
 );
 

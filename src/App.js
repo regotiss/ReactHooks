@@ -4,6 +4,8 @@ import Home from "./Home";
 import {Body} from "./styles";
 import UseStateExample1 from "./hooks/UseStateExample1";
 import UseStateExample2 from "./hooks/UseStateExample2";
+import UseEffectExample from "./hooks/UseEffectExample";
+
 import { ROUTES } from "./constants";
 import Nav from "./Nav";
 
@@ -15,6 +17,8 @@ function App() {
         <Switch>
           <Route path={ROUTES.USE_STATE_1}><UseStateExample1 /></Route>
           <Route path={ROUTES.USE_STATE_2}><UseStateExample2 /></Route>
+          <Route path={ROUTES.USE_STATE_2}><UseStateExample2 /></Route>
+          <Route path={ROUTES.USE_EFFECT_1}><UseEffectExample /></Route>
           <Route path={ROUTES.HOME}><Home /></Route>
         </Switch>
       </Router>

@@ -15,7 +15,8 @@ export const Text  = styled.p`
 export const Container = styled.div`
   display: flex;
   flex-direction: ${({flexDirection}) => flexDirection || 'row'};
-  ${({fullHeight}) => fullHeight && 'height: 100%'}
+  ${({fullHeight}) => fullHeight && 'height: 100%;'}
+  ${({color}) => color && `background-color: ${color};`}
 `;
 
 export const NavContainer = styled.ul`
