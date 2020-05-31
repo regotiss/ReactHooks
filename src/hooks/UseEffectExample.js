@@ -19,11 +19,11 @@ const UseEffectExample = () => {
   }, [count]);
 
   useEffect(() => {
-    console.log('component rendered');
+    console.log('component mounted');
     return () => {
-        console.log('component unmounting');
-    };
-  });
+      console.log('component unmounting');
+    }; 
+  }, []);
 
   return (
     <Container color={color}>

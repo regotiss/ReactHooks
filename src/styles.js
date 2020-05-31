@@ -29,3 +29,8 @@ export const Button = styled.button`
   font-size: 24px;
   margin: 10px;
 `;
+
+export const Logo = styled.img`
+  width: 200px;
+  height: 200px;  
+`;
