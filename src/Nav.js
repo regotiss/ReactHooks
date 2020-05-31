@@ -10,6 +10,7 @@ const Nav = () => (
        <li><NavItem to={ROUTES.USE_EFFECT}>useEffect Example</NavItem></li> 
        <li><NavItem to={ROUTES.USE_CALLBACK}>useCallback Example</NavItem></li> 
        <li><NavItem to={ROUTES.USE_MEMO}>useMemo Example</NavItem></li> 
+       <li><NavItem to={ROUTES.USE_REF}>useRef Example</NavItem></li> 
     </NavContainer>
 );
 

@@ -11,6 +11,7 @@ export const ROUTES = {
     USE_EFFECT: '/useEffect1',
     USE_CALLBACK: '/useCallback',
     USE_MEMO: '/useMemo',
+    USE_REF: '/useRef',
 };
 
 export const EMOJIS = [
