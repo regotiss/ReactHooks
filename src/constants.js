@@ -2,6 +2,7 @@ import sadImage from './images/sad.png';
 import happyImage from './images/happy.jpg';
 import fearImage from './images/fear.jpg';
 import sleepyImage from './images/sleepy.png';
+import suprisedImage from './images/suprised.jpg';
 
 export const ROUTES = {
     HOME: '/',
@@ -28,5 +29,9 @@ export const EMOJIS = [
     {
         image: sleepyImage,
         emotion: 'Sleepy'
+    },
+    {
+        image: suprisedImage,
+        emotion: 'Suprised'
     }
 ];

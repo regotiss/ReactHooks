@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Text, Container } from "../styles";
+import { Text, Container, Input } from "../styles";
 import { getRandomColor } from '../helper';
 
 const RATE = 75.52;
@@ -17,9 +17,10 @@ const UseMemoExample = () => {
       }, [usdAmount]);
 
     return (
-        <Container color={color}>
-            <input value={usdAmount} onChange={({ target: {value} }) => setUsdAmount(Number(value))} />
-            <Text>{inrAmount}</Text>
+        <Container flexDirection="column" fullWidth>
+            <Text fontSize={24}><strong>useMemo</strong></Text>
+            <Input value={usdAmount} onChange={({ target: {value} }) => setUsdAmount(Number(value))} />
+            <Text color={color} fontSize={54}>{inrAmount}</Text>
         </Container>
     );
 };
