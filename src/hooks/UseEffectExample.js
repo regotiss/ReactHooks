@@ -1,14 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Text, Container, Button } from "../styles";
-
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
+import { getRandomColor } from '../helper';
 
 const UseEffectExample = () => {
   const [count, setCount] = useState(0);

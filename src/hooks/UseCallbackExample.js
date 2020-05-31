@@ -1,15 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Logo, Text, Container } from '../styles';
 import { EMOJIS } from '../constants'; 
-
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
+import { getRandomColor } from '../helper';
 
 const UseCallbackExample = () => {
     const [selectedEmoji, setSelectedEmoji] = useState('');

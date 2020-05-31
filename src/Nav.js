@@ -10,6 +10,7 @@ const Nav = () => (
        <li><Link to={ROUTES.USE_STATE_2}>useState Example 2</Link></li> 
        <li><Link to={ROUTES.USE_EFFECT}>useEffect Example</Link></li> 
        <li><Link to={ROUTES.USE_CALLBACK}>useCallback Example</Link></li> 
+       <li><Link to={ROUTES.USE_MEMO}>useMemo Example</Link></li> 
     </NavContainer>
 );
 

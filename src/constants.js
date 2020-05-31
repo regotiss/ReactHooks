@@ -9,6 +9,7 @@ export const ROUTES = {
     USE_STATE_2: '/useState2',
     USE_EFFECT: '/useEffect1',
     USE_CALLBACK: '/useCallback',
+    USE_MEMO: '/useMemo',
 };
 
 export const EMOJIS = [
