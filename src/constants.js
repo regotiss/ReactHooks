@@ -13,6 +13,7 @@ export const ROUTES = {
     USE_MEMO: '/useMemo',
     USE_REF: '/useRef',
     USE_REDUCER: '/useReducer',
+    USE_CONTEXT: '/useContext',
 };
 
 export const EMOJIS = [

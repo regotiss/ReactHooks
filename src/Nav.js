@@ -12,6 +12,7 @@ const Nav = () => (
        <li><NavItem to={ROUTES.USE_MEMO}>useMemo Example</NavItem></li> 
        <li><NavItem to={ROUTES.USE_REF}>useRef Example</NavItem></li> 
        <li><NavItem to={ROUTES.USE_REDUCER}>useReducer Example</NavItem></li> 
+       <li><NavItem to={ROUTES.USE_CONTEXT}>useContext Example</NavItem></li> 
     </NavContainer>
 );
 

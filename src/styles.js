@@ -18,6 +18,7 @@ export const Text  = styled.p`
     font-size: ${({fontSize}) => `${fontSize || 20}px`};
     text-align: ${({align}) => align || 'left'};
     ${({color}) => color && `color: ${color};`}
+    ${({width}) => width && `width: ${width}px;`}
 `
 
 export const Container = styled.div`

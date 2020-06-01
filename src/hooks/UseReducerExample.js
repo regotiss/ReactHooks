@@ -45,11 +45,11 @@ const UseReducerExample = () => {
         <strong>Add User</strong>
       </Text>
       <Container>
-        <Text>Name:</Text>
+        <Text width={150}>Name:</Text>
         <Input value={name} onChange={updateName} />
       </Container>
       <Container>
-        <Text>Designation:</Text>
+        <Text width={150}>Designation:</Text>
         <Input value={designation} onChange={updateDesignation} />
       </Container>
       <Button onClick={submit}>Submit</Button>

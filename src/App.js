@@ -9,6 +9,7 @@ import UseCallbackExample from "./hooks/UseCallbackExample";
 import UseMemoExample from "./hooks/UseMemoExample";
 import UseRefExample from "./hooks/UseRefExample";
 import UseReducerExample from "./hooks/UseReducerExample";
+import UseContextExample from "./hooks/UseContextExample";
 
 import { ROUTES } from "./constants";
 import Nav from "./Nav";
@@ -28,6 +29,7 @@ function App() {
             <Route path={ROUTES.USE_MEMO}><UseMemoExample /></Route>
             <Route path={ROUTES.USE_REF}><UseRefExample /></Route>
             <Route path={ROUTES.USE_REDUCER}><UseReducerExample /></Route>
+            <Route path={ROUTES.USE_CONTEXT}><UseContextExample /></Route>
             <Route path={ROUTES.HOME}><Home /></Route>
           </Switch>
         </Container>
