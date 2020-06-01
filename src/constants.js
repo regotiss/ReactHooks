@@ -12,6 +12,7 @@ export const ROUTES = {
     USE_CALLBACK: '/useCallback',
     USE_MEMO: '/useMemo',
     USE_REF: '/useRef',
+    USE_REDUCER: '/useReducer',
 };
 
 export const EMOJIS = [
